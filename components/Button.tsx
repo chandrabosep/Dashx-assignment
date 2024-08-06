@@ -9,7 +9,7 @@ export default function Button({
 }) {
 	return (
 		<button
-			className={`${className} text-white bg-accent px-8 py-4 rounded-full  `}
+			className={`${className} text-white bg-accent py-3 px-8 md:py-4 rounded-full  `}
 		>
 			{children}
 		</button>
