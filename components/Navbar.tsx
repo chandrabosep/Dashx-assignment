@@ -14,7 +14,7 @@ export default function Navbar() {
 		<div className="w-full flex items-center justify-between mt-7 ">
 			<Image src={logo} alt="alt" className="size-fit" />
 
-			<div className="hidden lg:flex flex-row items-center gap-x-16 shadow-[#D1D1D1] shadow-md px-8 py-4.5 rounded-full">
+			<div className="hidden w-fit fixed inset-x-0 mx-auto bg-white lg:flex flex-row items-center gap-x-16 shadow-[#D1D1D1] shadow-md px-8 py-4.5 rounded-full z-50">
 				{links.map((link) => (
 					<Link
 						href={link}
